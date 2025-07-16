@@ -1,0 +1,86 @@
+{
+    "video_topic": "Generative AI vs. AI Agents vs. Agentic AI",
+    "primary_keywords": [
+        "generative AI",
+        "AI agents",
+        "agentic AI",
+        "large language models",
+        "LLM"
+    ],
+    "primary_justification": {
+        "generative AI": {
+            "Relevance": "The video's core topic is comparing and contrasting generative AI, AI agents, and agentic AI. Generative AI is the foundational concept being discussed, forming a basis for comparison.",
+            "Search Intent": "Users searching for \"generative AI\" are looking for information about this technology, including its capabilities and limitations. This aligns with the video's introductory explanation of generative AI's ability to create new content.",
+            "Contextual Importance": "Generative AI is defined and explained in detail, showcasing its role as a core element in the broader context of AI agents and agentic AI.",
+            "Competitiveness": "High competitiveness, but the video provides unique comparisons to niche AI concepts, potentially targeting a more specialized audience interested in advanced AI topics.",
+            "Industry-Specific Terms": "The video uses commonly understood industry terminology relating to Generative AI. No specific platform or proprietary terms are used."
+        },
+        "AI agents": {
+            "Relevance": "The video explicitly discusses AI agents as a distinct category, exploring their functionalities and differences from generative AI and agentic AI.",
+            "Search Intent": "Users searching \"AI agents\" seek to understand how these agents function, their capabilities, and their applications, which directly aligns with the video's explanation of AI agents as tools called by LLMs.",
+            "Contextual Importance": "The video extensively details the functioning of AI agents, explaining how they interact with LLMs to access external data sources, a central theme of the video.",
+            "Competitiveness": "Moderate competitiveness, as many resources discuss AI agents, but the video offers a detailed comparison with agentic AI, making it unique.",
+            "Industry-Specific Terms": "The video utilizes common terminology within the AI field and does not employ proprietary terms."
+        },
+        "agentic AI": {
+            "Relevance": "Agentic AI is a key focus, differentiated from AI agents. The video clarifies the collaboration aspect which distinguishes it from single-task AI agents.",
+            "Search Intent": "Users searching \"agentic AI\" are looking for an explanation of this advanced concept, its differences from standard AI agents, and real-world applications. This exactly matches the video's content.",
+            "Contextual Importance": "Agentic AI is central to the comparison and forms a key part of the concluding explanation, demonstrating the use of multiple agents working together.",
+            "Competitiveness": "Low competitiveness as the term is less common than others, leading to lower competition and greater chance of visibility for well-explained content.",
+            "Industry-Specific Terms": "No specific platform or proprietary terms are used."
+        },
+        "large language models": {
+            "Relevance": "LLMs are fundamental to the video's explanation of both generative AI and AI agents. The video highlights the role of LLMs in generating content and making tool calls.",
+            "Search Intent": "Users searching \"large language models\" are seeking information about LLMs' capabilities, limitations, and how they are used. The video provides exactly this information within a specific comparative context.",
+            "Contextual Importance": "The video repeatedly mentions and explains LLMs, establishing their significance in the overall context of generative AI, AI agents and agentic AI systems.",
+            "Competitiveness": "High competitiveness, but the video focuses on LLM application in agents and agentic systems, creating a niche.",
+            "Industry-Specific Terms": "No specific platform or proprietary terms are used."
+        },
+        "LLM": {
+            "Relevance": "LLM is used as an abbreviation of large language models, and its frequent use highlights its centrality within the video's discussion.",
+            "Search Intent": "Users searching for \"LLM\" are interested in information about large language models, The video offers this context.",
+            "Contextual Importance": "The consistent use of LLM throughout the video demonstrates its core importance to the concepts explained.",
+            "Competitiveness": "High competitiveness but is contextually relevant in the specific area of AI agents and agentic systems.",
+            "Industry-Specific Terms": "No specific platform or proprietary terms are used."
+        }
+    },
+    "secondary_keywords": [
+        "AI agent applications",
+        "agentic AI applications",
+        "LLM applications",
+        "generative AI applications",
+        "tool call"
+    ],
+    "secondary_justification": {
+        "AI agent applications": {
+            "Complementarity": "This complements the primary keywords by focusing on the practical uses of AI agents, expanding on their functionalities beyond just definitions.",
+            "Search Broadening": "Catches searches for practical examples and use cases of AI agents, increasing search visibility.",
+            "User Value": "Provides valuable insights into real-world applications of AI agents, complementing the theoretical explanations.",
+            "Strategic Importance": "Broadens the scope while remaining focused on AI agents, providing a practical perspective to enhance the video's value."
+        },
+        "agentic AI applications": {
+            "Complementarity": "Expands upon the concept of agentic AI by showcasing its practical applications and use cases.",
+            "Search Broadening": "Attracts users searching for real-world examples and uses of agentic AI systems.",
+            "User Value": "Provides practical context to the agentic AI concept, adding to the video's overall value.",
+            "Strategic Importance": "Broadens the appeal while staying true to the main topic, showcasing the potential and use cases of agentic AI."
+        },
+        "LLM applications": {
+            "Complementarity": "Explores the various applications of LLMs, showcasing their role in generative AI, AI agents, and agentic AI.",
+            "Search Broadening": "Captures searches focused on the practical uses of LLMs within the context of the video's theme.",
+            "User Value": "Adds further context on how LLMs are being utilized in different AI systems.",
+            "Strategic Importance": "Further highlights the significance of LLMs and their broad role in the discussed AI concepts."
+        },
+        "generative AI applications": {
+            "Complementarity": "Extends the discussion of generative AI by exploring its practical applications, showing real-world use cases.",
+            "Search Broadening": "Attracts users seeking information about specific applications and uses of generative AI.",
+            "User Value": "Adds depth to the generative AI explanation, providing practical context.",
+            "Strategic Importance": "Broadens appeal by providing practical applications, enhancing the video's relevance and value."
+        },
+        "tool call": {
+            "Complementarity": "Expands on how AI agents function by focusing on the specific mechanism of making external API calls.",
+            "Search Broadening": "Captures search terms related to the internal workings of AI agents.",
+            "User Value": "Provides a more technical and detailed understanding of AI agent functionality.",
+            "Strategic Importance": "Offers a more specific angle, which could target users seeking technical details on how AI agents operate."
+        }
+    }
+}

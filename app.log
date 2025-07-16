@@ -1,0 +1,244 @@
+2025-07-14 13:06:27,546 [WARNING] Retrying langchain_google_genai.chat_models._achat_with_retry.<locals>._achat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+].
+2025-07-14 13:09:29,122 [WARNING] Retrying langchain_google_genai.chat_models._achat_with_retry.<locals>._achat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+].
+2025-07-14 13:16:27,504 [WARNING] Retrying langchain_google_genai.chat_models._achat_with_retry.<locals>._achat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+].
+2025-07-14 13:16:36,627 [WARNING] Retrying langchain_google_genai.chat_models._achat_with_retry.<locals>._achat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+].
+2025-07-14 13:17:53,724 [WARNING] Retrying langchain_google_genai.chat_models._achat_with_retry.<locals>._achat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+].
+2025-07-14 13:18:34,979 [INFO] Intro generated
+2025-07-14 13:19:18,107 [INFO] Intro generated
+2025-07-14 13:21:43,535 [INFO] Intro generated
+2025-07-14 13:23:31,143 [INFO] Intro generated
+2025-07-14 13:32:31,829 [INFO] Intro generated
+2025-07-14 13:34:33,698 [INFO] Intro generated
+2025-07-14 13:58:25,138 [INFO] Intro generated
+2025-07-14 13:58:25,139 [INFO] Refined intro saved to INTRO.json
+2025-07-14 14:02:07,556 [INFO] Intro generated
+2025-07-14 14:02:07,557 [INFO] Refined intro saved to INTRO.json
+2025-07-14 14:31:57,860 [INFO] Specific details extracted
+2025-07-14 14:31:57,865 [INFO] Topic keyword generated
+2025-07-14 14:31:57,866 [INFO] Final output saved to combined_output1.json
+2025-07-14 14:39:45,815 [INFO] Specific details extracted
+2025-07-14 14:39:52,078 [INFO] Topic keyword generated
+2025-07-14 14:39:52,078 [INFO] Final output saved to combined_output1.json
+2025-07-14 14:40:59,132 [INFO] Specific details extracted
+2025-07-14 14:41:05,661 [INFO] Topic keyword generated
+2025-07-14 14:41:05,661 [INFO] Final output saved to combined_output1.json
+2025-07-14 14:46:18,978 [INFO] Specific details extracted
+2025-07-14 14:47:31,932 [INFO] Specific details extracted
+2025-07-14 15:29:57,384 [INFO] Specific details extracted
+2025-07-14 15:31:35,410 [INFO] Specific details extracted
+2025-07-14 15:34:47,484 [INFO] Specific details extracted
+2025-07-14 15:37:07,773 [INFO] Specific details extracted
+2025-07-14 16:05:49,327 [INFO] Specific details extracted
+2025-07-14 16:06:49,333 [INFO] Specific details extracted
+2025-07-14 16:06:54,045 [INFO] Topic keyword generated
+2025-07-14 16:06:54,045 [INFO] Final output saved to combined_output1.json
+2025-07-14 19:09:58,581 [INFO] Specific details extracted
+2025-07-14 19:10:06,852 [INFO] Topic keyword generated
+2025-07-14 19:10:06,853 [INFO] Final output saved to combined_data1.json
+2025-07-14 19:10:26,844 [INFO] Final output saved to combined_data2.json
+2025-07-14 19:12:57,579 [INFO] Specific details extracted
+2025-07-14 19:13:02,950 [INFO] Topic keyword generated
+2025-07-14 19:13:02,950 [INFO] Final output saved to combined_data1.json
+2025-07-14 19:13:32,605 [INFO] Final output saved to combined_data2.json
+2025-07-14 19:43:47,146 [INFO] Specific details extracted
+2025-07-14 19:43:55,459 [INFO] Topic keyword generated
+2025-07-14 19:43:55,460 [INFO] Final output saved to combined_data1.json
+2025-07-14 19:44:15,808 [INFO] Final output saved to combined_data2.json
+2025-07-15 10:47:32,191 [INFO] Specific details extracted
+2025-07-15 10:47:40,892 [INFO] Topic keyword generated
+2025-07-15 10:47:40,892 [INFO] Final output saved to combined_data1.json
+2025-07-15 10:49:27,696 [INFO] Specific details extracted
+2025-07-15 10:49:35,919 [INFO] Topic keyword generated
+2025-07-15 10:49:35,919 [INFO] Final output saved to combined_data1.json
+2025-07-15 10:51:03,412 [INFO] Specific details extracted
+2025-07-15 10:51:13,901 [INFO] Topic keyword generated
+2025-07-15 10:51:13,901 [INFO] Final output saved to combined_data1.json
+2025-07-15 10:51:27,507 [INFO] Final output saved to combined_data2.json
+2025-07-15 13:05:17,380 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 13:05:17,380 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 13:05:17,380 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 13:05:18,581 [INFO] ✅ Created 1 new sessions
+2025-07-15 13:05:18,661 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 13:05:18,661 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 13:05:18,662 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 13:05:18,782 [INFO] ✨ Agent initialization complete
+2025-07-15 13:05:18,782 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 13:05:18,783 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 13:05:18,783 [INFO] 👣 Step 1/100
+2025-07-15 13:05:21,165 [INFO] ✅ Agent finished at step 1
+2025-07-15 13:05:21,166 [INFO] 🎉 Agent execution complete in 3.7860348224639893 seconds
+2025-07-15 13:10:14,128 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 13:10:14,128 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 13:10:14,128 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 13:10:16,098 [INFO] ✅ Created 1 new sessions
+2025-07-15 13:10:16,144 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 13:10:16,144 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 13:10:16,144 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 13:10:16,213 [INFO] ✨ Agent initialization complete
+2025-07-15 13:10:16,213 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 13:10:16,213 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 13:10:16,213 [INFO] 👣 Step 1/100
+2025-07-15 13:10:19,722 [INFO] ✅ Agent finished at step 1
+2025-07-15 13:10:19,723 [INFO] 🎉 Agent execution complete in 5.594903945922852 seconds
+2025-07-15 13:14:33,780 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 13:14:33,781 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 13:14:33,781 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 13:14:35,113 [INFO] ✅ Created 1 new sessions
+2025-07-15 13:14:35,161 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 13:14:35,161 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 13:14:35,162 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 13:14:35,241 [INFO] ✨ Agent initialization complete
+2025-07-15 13:14:35,242 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 13:14:35,242 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 13:14:35,242 [INFO] 👣 Step 1/100
+2025-07-15 13:14:39,953 [INFO] ✅ Agent finished at step 1
+2025-07-15 13:14:39,953 [INFO] 🎉 Agent execution complete in 6.173402309417725 seconds
+2025-07-15 14:45:11,474 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 14:45:11,474 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 14:45:11,474 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 14:45:12,526 [INFO] ✅ Created 1 new sessions
+2025-07-15 14:45:12,576 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 14:45:12,576 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 14:45:12,576 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 14:45:12,669 [INFO] ✨ Agent initialization complete
+2025-07-15 14:45:12,669 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 14:45:12,669 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 14:45:12,669 [INFO] 👣 Step 1/100
+2025-07-15 14:45:16,588 [INFO] ✅ Agent finished at step 1
+2025-07-15 14:45:16,588 [INFO] 🎉 Agent execution complete in 5.114689111709595 seconds
+2025-07-15 15:38:32,715 [INFO] Specific details extracted
+2025-07-15 15:38:39,054 [INFO] Topic keyword generated
+2025-07-15 15:38:39,055 [INFO] Final output saved to combined_data1.json
+2025-07-15 15:38:55,176 [INFO] Final output saved to combined_data2.json
+2025-07-15 15:38:55,176 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 15:38:55,177 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 15:38:55,177 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 15:38:56,601 [INFO] ✅ Created 1 new sessions
+2025-07-15 15:38:56,661 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 15:38:56,662 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 15:38:56,662 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 15:38:56,752 [INFO] ✨ Agent initialization complete
+2025-07-15 15:38:56,753 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 15:38:56,753 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 15:38:56,753 [INFO] 👣 Step 1/100
+2025-07-15 15:38:59,122 [INFO] ✅ Agent finished at step 1
+2025-07-15 15:38:59,123 [INFO] 🎉 Agent execution complete in 3.9462966918945312 seconds
+2025-07-15 15:39:18,173 [INFO] Blog saved to FINAL_BLOG.json
+2025-07-15 16:17:48,112 [INFO] Specific details extracted
+2025-07-15 16:18:01,419 [INFO] Topic keyword generated
+2025-07-15 16:18:01,419 [INFO] Final output saved to combined_data1.json
+2025-07-15 16:18:15,312 [INFO] Final output saved to combined_data2.json
+2025-07-15 16:18:15,312 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 16:18:15,312 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 16:18:15,313 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 16:18:16,845 [INFO] ✅ Created 1 new sessions
+2025-07-15 16:18:16,914 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 16:18:16,914 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 16:18:16,915 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 16:18:17,013 [INFO] ✨ Agent initialization complete
+2025-07-15 16:18:17,013 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 16:18:17,013 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 16:18:17,014 [INFO] 👣 Step 1/100
+2025-07-15 16:18:19,652 [INFO] ✅ Agent finished at step 1
+2025-07-15 16:18:19,652 [INFO] 🎉 Agent execution complete in 4.340191841125488 seconds
+2025-07-15 16:18:31,737 [INFO] Blog saved to FINAL_BLOG.json

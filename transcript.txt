@@ -1,0 +1,269 @@
+Nothing Phone 3 Review: They Lied!
+(funky upbeat music)
+- This is the Nothing Phone 3
+and yeah, it's ugly.
+(funky music)
+You know, people say beauty is in the eye
+of the beholder and stuff like that.
+I get it. You can find
+beauty in anything, for sure.
+But also, you know,
+there's a nice alignment
+to things that feels good.
+And you know, when things are,
+when things are where
+you expect them to be,
+doesn't that feel better?
+Okay. All right, carcinisation.
+I learned about this recently.
+This is a strange and
+odd but funny phenomenon
+and evolutionary biology where a bunch
+of undersea crustaceans have
+all slowly evolved towards
+the same, flat, robust, crab-like shape
+because it seems to be
+the ideal form factor
+for surviving in the ocean.
+Oversimplified, it feels
+like everything down there is
+evolving towards a crab.
+And look at all these crabs,
+lots of smartphones today
+basically look the same.
+So when something that comes
+along looks a little different,
+well it's gonna feel weird, isn't it?
+But hey, maybe someone's
+into the layered glass look
+with the text in various places.
+Maybe you're into the
+red dot turning into a
+functional record light.
+Maybe you're into a bit of a lobster.
+Real talk though, it feels
+like every few months Nothing
+comes out with a new
+product that looks crazy
+and people hate on all the pictures
+on the internet 'cause they look weird.
+And then two months later
+we're all used to it
+and we forget about the looks
+and we can focus on the product itself.
+So let's just skip all that
+and focus on the product.
+This is what Nothing is calling
+their first true flagship,
+which is what you would
+say if you're Nothing
+and you're charging $799 for a
+phone for the first time ever
+after rolling around in the budget
+and mid-range space for a few years.
+But I've been using this
+phone for the better part
+of the last week and I'm gonna disagree
+with the whole premise here actually.
+This is no more of a
+flagship phone than any
+of Nothing's previous phones.
+Now are they lying to us?
+Eh, not exactly but kind of. Hear me out.
+799 is the same price
+as a Samsung Galaxy S25
+or the Pixel 9, or right
+underneath the iPhone 16.
+Like they're competing against
+bonafide flagships from mega
+companies with basically unlimited money.
+And part of what we've come
+to expect from phones in this
+class is basically giving
+us the best available stuff.
+Like it's kind of this unspoken rule,
+but if you're spending
+this much, you deserve
+to just get the best parts, right?
+That's why it's been so easy for me
+to rag on like the Pixel in the past
+for not having the best performance
+or the iPhone for not having
+a high refresh rate display.
+So this Nothing Phone 3,
+it's certainly dressed up like a flagship
+and it is the most flagship
+yet of any Nothing phone.
+It is huge.
+It's got this super bright,
+high refresh rate, OLED display.
+It has a massive new
+silicon carbon battery,
+new triple 50 megapixel
+cameras, IP 68 certification,
+up to 16 gigs of RAM.
+Like it's got all the makings
+of what could be a flagship.
+But when you peel back the
+mask, just a little bit,
+like right under the surface,
+it's the same exact strategy
+that Nothing has been running on all their
+previous phones in the past.
+The playbook is
+to just cut back just a little
+bit from the highest end
+stuff in ways that hopefully
+you, the buyer, don't notice.
+And it still feels like a flagship,
+but that allows 'em to cut costs
+and undercut the competition a little bit.
+So it works. It's not a bad strategy.
+It's allowed 'em to make
+great phones in the past,
+but it's just harder to sell
+that strategy at this price.
+So for starters, the chip inside, right?
+It's not the expensive,
+proven, powerful flagship
+Snapdragon 8 Elite chip.
+This is running the
+Snapdragon 8s Gen 4 instead.
+It's one of the first phones
+we've seen using this chip.
+And to be fair, it is much
+better than anything we've seen
+in any previous Nothing phone.
+It's a four nanometer chip,
+it's something like 40% better CPU
+and like 90% better GPU than
+the chip in the two year-old
+Nothing Phone 2.
+The phone is zippy and smooth as hell,
+basically all the time.
+And I'll get to the software
+experience in a second.
+But is it the best available?
+Well, technically no.
+The Snapdragon 8 Elite still smokes this.
+You can see benchmark
+scores, it's pretty clear
+that's still the flagship chip.
+Now you as the user
+might never notice that.
+In fact you probably wouldn't
+if you just used the phone
+side by side in a lot of
+random, normal activities.
+But if you happen to get into
+graphically intensive gaming
+or the most intense tasks,
+that's what separates a flagship
+from an upper mid-range chip.
+So for some context, some
+other phones using this chip,
+the Poco F7 and the Iqoo Neo 10,
+both of these are sub $500 phones.
+I also think they were
+very clever pairing it up
+with 12 gigs of RAM and
+256 gigs of storage base.
+It's fast Ram, it's UFS 4.0
+and then the upgraded
+version for 899 is 16 gigs
+of RAM and half a terabyte.
+Awesome to see that. But
+there is no 8 128 version.
+And I think if they did make one,
+that would probably be
+like 699, but they didn't.
+Now when we get to the outside
+of this phone, there is this,
+again, huge new AMOLED display.
+Surely it's a flagship display, right?
+It's gigantic.
+It's 6.67 inches corner to corner
+with perfectly even
+bezels all the way around,
+that takes extra work.
+It's a gorgeous AMOLED,
+nice color reproduction
+and it's also, it's a
+good amount over 1080P.
+It's nice and sharp, smooth
+with that dynamic refresh
+rate up to 120 hertz
+and it gets crazy bright,
+1600 nits outdoors,
+4,500 nits peak brightness with HDR.
+So the numbers on paper go crazy
+and it's just, it's such
+a nice screen to look at.
+I've loved using it. So
+what's the catch, Marques?
+Well one, you would
+literally never know this
+unless you check the spec sheet,
+but the glass protecting
+the front of this display,
+it's Gorilla Glass 7i,
+and that is a mid-range
+glass in their lineup
+where you might see flagships
+using the more durable
+Gorilla Glass Victus or Victus 2.
+And normally I wouldn't even bring that up
+but that's definitely something
+to consider on a phone
+that is meant to spend a
+lot of its time face down.
+And then another thing, there are a lot
+of like really nice, subtle
+things that go into this screen.
+Like it has a 1,000
+hertz touch sample rate,
+so it's even more responsive
+than the phone too.
+It also has 2160 hertz PWM dimming
+and it also has a very acceptable
+optical fingerprint reader
+down near the bottom.
+But it's also an LTPS display,
+instead of the most premium LTPO.
+And all that really means
+in practice is instead
+of varying a refresh rate
+from one to 120 hertz,
+it can go from 30 to 120 hertz.
+You would never notice, but
+it does mean a little bit
+worse power efficiency.
+I'll tell you what though, it
+can actually absolutely handle
+the slightly worse power efficiency
+because the battery in
+this phone is elite.
+It's marketed as a 5100
+50 milliamp power battery,
+but according to Nothing
+and it gets complicated
+but it's actually rated at a
+5,500 milliamp power battery.
+It's silicon carbon, it
+charges extra fast at 65 watts.
+It supports wireless charging,
+reverse wireless charging,
+reverse wired charging.
+It's great.
+It sips power in standby
+and it's genuinely a two day
+phone if you want it to be,
+even without the more
+efficient Snapdragon 8 Elite.
+So honestly flagship battery for sure.
+So then, okay, what about the cameras?
+Triple 50 megapixel cameras
+feels pretty flagship.
+And you know what, again, it is closer
+to a flagship than any previous
+Nothing phone has ever been,
