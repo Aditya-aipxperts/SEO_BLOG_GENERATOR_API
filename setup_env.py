@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_openai import ChatOpenAI
+
 
 def setup_environment():
     load_dotenv()
@@ -15,8 +15,6 @@ def setup_environment():
 def get_gemini_flash_model():
     return ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=1)
 
-def get_gpt_model(model_name="gpt-4o", temperature=1):
-    return ChatOpenAI(model=model_name, temperature=temperature)
 
 
 

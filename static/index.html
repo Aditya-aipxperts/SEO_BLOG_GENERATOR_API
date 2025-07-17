@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SEO Blog Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-bg: #f6f7f9;
+            --card-bg: #fff;
+            --border: #e5e7eb;
+            --text-main: #181818;
+            --text-secondary: #555;
+            --accent: #222;
+            --accent-hover: #111;
+            --shadow: 0 4px 32px rgba(0,0,0,0.07);
+            --radius: 14px;
+        }
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: var(--primary-bg);
+            margin: 0;
+            padding: 0;
+            color: var(--text-main);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2.5em 0 1.2em 0;
+        }
+        .logo {
+            width: 38px;
+            height: 38px;
+            background: #222;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-right: 0.8em;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .brand {
+            font-size: 1.45em;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: var(--text-main);
+        }
+        .container {
+            max-width: 920px;
+            margin: 0 auto 40px auto;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 2.5em 2em 2.5em 2em;
+        }
+        h1 {
+            text-align: center;
+            color: var(--text-main);
+            font-weight: 700;
+            margin-bottom: 1.2em;
+            letter-spacing: -1px;
+            font-size: 2em;
+        }
+        label {
+            display: block;
+            margin-top: 1.5em;
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 1.08em;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 1em;
+            margin-top: 0.4em;
+            border: 1.5px solid var(--border);
+            border-radius: 7px;
+            font-size: 1.08em;
+            background: #f9fafb;
+            transition: border 0.2s, box-shadow 0.2s;
+            color: var(--text-main);
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus, textarea:focus {
+            border: 1.5px solid var(--accent);
+            outline: none;
+            box-shadow: 0 2px 8px rgba(34,34,34,0.07);
+        }
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        button {
+            margin-top: 2.2em;
+            width: 100%;
+            padding: 1em;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: 7px;
+            font-size: 1.13em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 8px rgba(34,34,34,0.04);
+        }
+        button:active, button:focus {
+            background: var(--accent-hover);
+        }
+        .spinner {
+            display: none;
+            margin: 2em auto 1em auto;
+            border: 4px solid #e0e0e0;
+            border-top: 4px solid var(--accent);
+            border-radius: 50%;
+            width: 38px;
+            height: 38px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .feedback {
+            text-align: center;
+            margin-top: 1.5em;
+            font-weight: 500;
+            font-size: 1.08em;
+        }
+        .feedback.error {
+            color: #c0392b;
+        }
+        .feedback.success {
+            color: #1a7f37;
+        }
+        .collapsible {
+            background: #f7f7f8;
+            color: var(--text-main);
+            cursor: pointer;
+            padding: 1.1em 1.2em;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.13em;
+            border-radius: 7px;
+            margin-top: 1.5em;
+            transition: background 0.2s, box-shadow 0.2s;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+        .collapsible.active, .collapsible:hover {
+            background: #ececec;
+        }
+        .content {
+            padding: 0 1.2em 1.2em 1.2em;
+            display: none;
+            overflow: auto;
+            background: #fff;
+            border-radius: 0 0 7px 7px;
+            border: 1px solid #ededed;
+            border-top: none;
+            max-height: 700px;
+            min-height: 180px;
+            margin-bottom: 1.5em;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+        .markdown-output {
+            font-size: 1.13em;
+            color: var(--text-main);
+            min-height: 160px;
+            line-height: 1.7;
+            word-break: break-word;
+        }
+        .markdown-output h1, .markdown-output h2, .markdown-output h3, .markdown-output h4 {
+            color: var(--text-main);
+            font-weight: 700;
+            margin-top: 1.2em;
+        }
+        .markdown-output ul, .markdown-output ol {
+            margin-left: 1.2em;
+        }
+        .markdown-output code {
+            background: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 0.98em;
+        }
+        .markdown-output pre {
+            background: #f5f5f5;
+            padding: 1em;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 1em 0.5em 1.5em 0.5em;
+            }
+            .header {
+                padding: 1.5em 0 0.7em 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">S</div>
+        <span class="brand">SEO Blog Generator</span>
+    </div>
+    <div class="container">
+        <form id="pipeline-form">
+            <label>
+                Video URL:
+                <input type="text" name="video_url" required placeholder="https://www.youtube.com/watch?v=...">
+            </label>
+            <label>
+                Domain URL:
+                <input type="text" name="domain_url" required placeholder="https://yourdomain.com">
+            </label>
+            <label>
+                Raw Blog:
+                <textarea name="raw_blog" placeholder="Paste your raw blog content here..."></textarea>
+            </label>
+            <button type="submit">Run Pipeline</button>
+        </form>
+        <div class="spinner" id="spinner"></div>
+        <div class="feedback" id="feedback"></div>
+        <div id="results-section"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        const form = document.getElementById('pipeline-form');
+        const spinner = document.getElementById('spinner');
+        const feedback = document.getElementById('feedback');
+        const resultsSection = document.getElementById('results-section');
+
+        function createCollapsible(title, content, isMarkdown=false) {
+            const btn = document.createElement('button');
+            btn.className = 'collapsible';
+            btn.textContent = title;
+            const div = document.createElement('div');
+            div.className = 'content';
+            let inner;
+            if (isMarkdown) {
+                inner = document.createElement('div');
+                inner.className = 'markdown-output';
+                inner.innerHTML = marked.parse(content);
+            } else {
+                inner = document.createElement('pre');
+                inner.textContent = content;
+            }
+            div.appendChild(inner);
+            btn.addEventListener('click', function() {
+                this.classList.toggle('active');
+                if (div.style.display === 'block') {
+                    div.style.display = 'none';
+                } else {
+                    div.style.display = 'block';
+                }
+            });
+            return [btn, div];
+        }
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            feedback.textContent = '';
+            resultsSection.innerHTML = '';
+            spinner.style.display = 'block';
+            const data = {
+                video_url: form.video_url.value,
+                domain_url: form.domain_url.value,
+                raw_blog: form.raw_blog.value
+            };
+            try {
+                const response = await fetch('/run-pipeline', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                spinner.style.display = 'none';
+                if (!response.ok) {
+                    const err = await response.json();
+                    feedback.textContent = err.detail || 'An error occurred.';
+                    feedback.className = 'feedback error';
+                    return;
+                }
+                const result = await response.json();
+                feedback.textContent = 'Pipeline completed successfully!';
+                feedback.className = 'feedback success';
+                // Show each key in a collapsible section, render markdown for blog output
+                Object.entries(result).forEach(([key, value]) => {
+                    let displayValue = typeof value === 'object' ? JSON.stringify(value, null, 2) : value;
+                    // If the key is likely to be markdown (e.g. Polished_Blog, Final_Blog, etc), render as markdown
+                    const isMarkdown = /blog|output|summary|guide|conclusion|cta|details|intro|content/i.test(key);
+                    const [btn, div] = createCollapsible(key, displayValue, isMarkdown);
+                    resultsSection.appendChild(btn);
+                    resultsSection.appendChild(div);
+                });
+            } catch (err) {
+                spinner.style.display = 'none';
+                feedback.textContent = 'Error: ' + err;
+                feedback.className = 'feedback error';
+            }
+        });
+    </script>
+</body>
+</html>

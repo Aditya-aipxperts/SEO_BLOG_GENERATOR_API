@@ -18,12 +18,16 @@ from Domain_aligned.main import domain_aligned
 from Rewrite_Blog.main import rewrite_blog
 from schemas import SEOBlogGenerator
 from setup_env import setup_environment, get_gemini_flash_model
+from fastapi.staticfiles import StaticFiles
+
+
 
 setup_environment()
 llm = get_gemini_flash_model()
 
 app = FastAPI()
 
+app.mount("/static", StaticFiles(directory="static", html=True), name="static")
 class PipelineRequest(BaseModel):
     video_url: str
     domain_url: str

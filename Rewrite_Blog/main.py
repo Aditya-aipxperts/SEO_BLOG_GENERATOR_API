@@ -11,6 +11,11 @@ def load_json(filename):
     with open(filename, "r", encoding="utf-8") as f:
         return json.load(f)
 
+def fix_invalid_json_escapes(s):
+    # Replace single backslashes not followed by valid escape chars with double backslashes
+    # Valid escapes in JSON: \", \\, \/, \b, \f, \n, \r, \t, \u
+    return re.sub(r'\\\\(?![\"\\\\/bfnrtu])', r'\\\\\\\\', s)
+
 async def rewrite_blog(state: Dict) -> Dict:
     # data = {
     #     "domain_aligned_cta": state.get("domain_aligned_cta"),
@@ -139,18 +144,21 @@ async def rewrite_blog(state: Dict) -> Dict:
     Full_prompt = f"{prompt}\n\n{json.dumps(combined_data, indent=2, ensure_ascii=False)}"
     response = await llm.ainvoke(Full_prompt)
     Blog = response.content.strip()
-    # print(Blog)
-    Blog = re.sub(r'\s+', ' ', Blog).strip()
+    with open("Blog.txt", "w", encoding="utf-8") as f:
+        f.write(Blog)
+    # Remove code block markers
+    Blog = Blog.strip()
     if Blog.startswith("```json"):
-        Blog = Blog.split("```json")[1].split("```")[0]
+        Blog = Blog[len("```json"):].strip()
     if Blog.startswith("```"):
-        Blog = Blog.split("```")[1]
+        Blog = Blog[len("```"):].strip()
     if Blog.endswith("```"):
-        Blog = Blog.split("```")[0]
-    if Blog.startswith("```json"):
-        Blog = Blog.split("```json")[1].split("```")[0]
-    # Escape all backslashes to prevent invalid escape errors
-    Blog = Blog.replace('\\', '\\\\')
+        Blog = Blog[:-3].strip()
+
+    # Fix invalid escapes
+    Blog = fix_invalid_json_escapes(Blog)
+
+    # Try to parse as JSON
     try:
         data = json.loads(Blog)
     except Exception as e:
