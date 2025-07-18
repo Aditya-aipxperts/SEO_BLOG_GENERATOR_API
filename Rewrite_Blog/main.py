@@ -4,6 +4,7 @@ import json
 import re
 from typing import Dict
 
+
 setup_environment()
 llm = get_gemini_flash_model()
 
@@ -133,6 +134,8 @@ async def rewrite_blog(state: Dict) -> Dict:
     * Ensure branding is woven into the content naturally, without reducing the blog's length or detail.
 
     * STRICTLY DO NOT ADD ANY EXPLANATION OTHER THAN THE Blog Post Content. The content should be polished and ready for publishing.
+
+    * Instead of domain url, place the given domain name by the user.
 
     * Return strictly valid JSON only, matching this schema:
 
